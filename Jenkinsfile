@@ -6,7 +6,7 @@ pipeline{
 	environment{
 		DOCKERHUB_USERNAME = 'yuvrajdevs'
 		IMAGE_NAME = "${DOCKERHUB_USERNAME}/jenkins-pipeline-project"
-		IMAGE_TAG = "build-${BUILD_NUMBER}
+		IMAGE_TAG = "build-${BUILD_NUMBER}"
 	}
 	stages{
 		stage('Build and Test'){
