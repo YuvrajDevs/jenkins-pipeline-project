@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	tools{
-		nodejs 'NodeJS-LTS'
+		node 'NodeJS-LTS'
 	}
 	environment{
 		DOCKERHUB_USERNAME = 'yuvrajdevs'
